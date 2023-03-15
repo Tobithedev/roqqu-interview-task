@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Satoshi-Black";
+  src: url("/fonts/Satoshi-Black.otf");
+}
+
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("/fonts/Satoshi-Bold.otf");
+}
+
+@font-face {
+  font-family: "Satoshi-Light";
+  src: url("/fonts/Satoshi-Light.otf");
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("/fonts/Satoshi-Medium.otf");
+}
+
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("/fonts/Satoshi-Regular.otf");
+}
+
+
+body {
+  @apply bg-[#1C2127]
+}
+
+@layer components {
+  .active {
+    @apply bg-blue-300;
+  }
+}
